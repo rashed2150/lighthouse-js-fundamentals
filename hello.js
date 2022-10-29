@@ -1,4 +1,4 @@
-const sayHello = function() {
+/* const sayHello = function() {
     console.log("Hello World!");
 }
 sayHello()
@@ -6,4 +6,11 @@ sayHello()
 const saysHello = function(name) {
     console.log("Hello " + name )
 }
-saysHello('Bithy')
+saysHello('Bithy') */
+
+const saythello = function(name) {
+    return 'Hello ' + name
+}
+const greeting = saythello('Rashed')
+console.log(greeting)
+
